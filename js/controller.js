@@ -218,7 +218,7 @@ function addQty(product,qty){
 function sendMessage(id){
     
     if(total < 150){
-        alert("Recuerda que el envio es gratis a partir de $150. Gracias por tu comprensión");
+        alert("Recuerda que el envio es gratis a partir de $200. Gracias por tu comprensión");
     }
     const resultado = "https://api.whatsapp.com/send?phone=+522461072472&text=" + buildMessage();
     document.getElementById(id).href = resultado;
